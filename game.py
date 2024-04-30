@@ -4,7 +4,6 @@ import os
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 import random
-import csv
 
 if 'HELICONE_API_KEY' not in os.environ:
     print("You didn't set your Helicone key to the HELICONE_API_KEY env var on the command line.")
@@ -17,16 +16,15 @@ easy_df = pd.read_csv("data/easy_poems.csv")
 medium_df = pd.read_csv("data/medium_poems.csv")
 hard_df = pd.read_csv("data/hard_poems.csv")
 
-def select_random_poem(df):
-  random_index = random.randint(0, len(df) - 1)
-  random_poem = df.iloc[random_index].to_dict()
-  return (random_poem['Poem Prompt'], random_poem['Poem'], random_index)
+def select_random_poem(poem_df):
+  random_index = random.randint(0, len(poem_df) - 1)
+  random_poem = poem_df.iloc[random_index].to_dict()
+  return (random_poem['Poem Prompt'], random_poem['Poem'], random_poem['Topic'], random_poem['Style'], random_poem['Structure'])
 
 def create_poem_from_prompt(prompt):
   messages = [
       {'role': 'system', 'content': prompt}
   ]
-
   response = client.chat.completions.create(
       model='gpt-4',
       messages=messages,
@@ -37,7 +35,6 @@ def create_poem_from_prompt(prompt):
       presence_penalty=0
   )
   gpt_response = response.choices[0].message.content
-
   return gpt_response
 
 def compute_cosine_similarity(prompt1, prompt2):
@@ -51,7 +48,6 @@ def compute_llm_similarity(poem_1, poem_2):
   messages = [
       {'role': 'system', 'content': prompt}
   ]
-
   response = client.chat.completions.create(
       model='gpt-4',
       messages=messages,
@@ -62,7 +58,6 @@ def compute_llm_similarity(poem_1, poem_2):
       presence_penalty=0
   )
   gpt_response = response.choices[0].message.content
-
   return int(gpt_response) / 100
 
 def llm_output_match(poem, phrase):
@@ -70,7 +65,6 @@ def llm_output_match(poem, phrase):
   messages = [
       {'role': 'system', 'content': prompt}
   ]
-
   response = client.chat.completions.create(
       model='gpt-4',
       messages=messages,
@@ -81,40 +75,35 @@ def llm_output_match(poem, phrase):
       presence_penalty=0
   )
   gpt_response = response.choices[0].message.content
-
   return gpt_response
 
-def give_feedback(user_poem):
-  poem_similarity = llm_output_match(user_poem, df["Topic"][poem_idx])
-  print(f"Matched topic: {poem_similarity}")
-  poem_similarity = llm_output_match(user_poem, df["Style"][poem_idx])
-  print(f"Matched style: {poem_similarity}")
-  poem_similarity = llm_output_match(user_poem, df["Structure"][poem_idx])
-  print(f"Matched structure: {poem_similarity}")
+def give_feedback(user_poem, orig_poem_topic, orig_poem_style, orig_poem_structure):
+  topic_similarity = llm_output_match(user_poem, orig_poem_topic)
+  print(f"Matched topic: {topic_similarity}")
+  style_similarity = llm_output_match(user_poem, orig_poem_style)
+  print(f"Matched style: {style_similarity}")
+  structure_similarity = llm_output_match(user_poem, orig_poem_structure)
+  print(f"Matched structure: {structure_similarity}")
 
-orig_prompt, orig_poem, poem_idx = select_random_poem(easy_df)
-print(f"Original Poem: {orig_poem}")
+for difficulty in range(3):
+    print(f"Difficulty {difficulty}")
+    if difficulty == 1:
+       orig_prompt, orig_poem, orig_poem_topic, orig_poem_style, orig_poem_structure = select_random_poem(easy_df)
+    elif difficulty == 2:
+         orig_prompt, orig_poem, orig_poem_topic, orig_poem_style, orig_poem_structure = select_random_poem(medium_df)
+    else:
+        orig_prompt, orig_poem, orig_poem_topic, orig_poem_style, orig_poem_structure = select_random_poem(hard_df)
+    print(f"Original Poem: {orig_poem}")
+    for round in range(3):
+        print(f"Round {round}")
+        user_input = input("Guess the prompt for the poem: ")
+        user_poem = create_poem_from_prompt(user_input)
+        print(f"User Generated Poem: {user_poem}")
 
-for i in range(3):
-    print("Round {i}")
-    user_input = input("Guess the prompt for the poem: ")
-    user_poem = create_poem_from_prompt(user_input)
-    print(f"User Generated Poem: {user_poem}")
+        # llm_similarity = compute_llm_similarity(orig_poem, user_poem)
+        # print(f"LLM computed similarity: {llm_similarity}")
 
-    llm_similarity = compute_llm_similarity(orig_poem, user_poem)
-    print(f"LLM computed similarity between original prompt and user prompt: {llm_similarity}")
+        poem_similarity = compute_cosine_similarity(orig_poem, user_poem)
+        print(f"Cosine similarity: {poem_similarity}")
 
-    poem_similarity = compute_cosine_similarity(orig_poem, user_poem)
-    print(f"Cosine similarity between original prompt and user prompt: {poem_similarity}")
-
-    give_feedback(user_poem)
-
-# Set up a separate csv with original poem_idx, first user prompt and improved prompt from user for feedback technique used
-# This is used to evaluate the usefulness of each feedback technique
-# def write_to_eval_csv(folder_path, eval_method, index, first_prompt, improved_prompt):
-#     file_path = os.path.join(folder_path, f'eval_{eval_method}.csv')
-#     with open(file_path, 'a', newline='') as file:
-#         writer = csv.writer(file)
-#         writer.writerow([index, first_prompt, improved_prompt])
-
-# write_to_eval_csv()
+        give_feedback(user_poem, orig_poem_topic, orig_poem_style, orig_poem_structure)
