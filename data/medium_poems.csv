@@ -1,0 +1,563 @@
+,Poem Prompt,Poem,Topic,Style,Structure
+0,"Write me a poem about a blooming garden, in the style of Emily Dickinson, in the structure of a sonnet","A Vision of Heaven’s dainty Eye,
+In lured emerald mystery - a sigh,
+Bud as whispers spread apart,
+Unmask sweet nature’s hidden art.
+Soft melodies in petal glow,
+In dew-specked dance, life bestows.
+Its secret- vibrant vesture started,
+A Bursting bloom - a Heart unguarded.",a blooming garden,Emily Dickinson,a sonne
+1,"Write me a poem about the vastness of space, in the style of W.H. Auden, in the structure of an ode","Beyond the humdrum troubles in our caste,
+In twilight’s theatre, there lies a place -
+Unmeasured, silent, swallowed by the past;
+Its players: suns in vast and empty space. 
+Their light-brushed scores of whispers softly chaste.",the vastness of space,W.H. Auden,an od
+2,"Write me a poem about the complexities of love, in the style of Robert Frost, in the structure of a haiku","Shadowed lane in fall,
+Leaves twine like trusting lovers -
+Brevity in hues.
+
+Love’s path, oft unknown,
+Bitter snow may quell warm hearts,
+Yet, seeds of spring lurk.
+
+Underneath the moon’s veil,
+Rivers whisper love's old tale —
+Endless, yet transient. 
+
+Frost-kissed roses glow,
+Thorny truths beneath soft snow.
+In passion, pain grows.",the complexities of love,Robert Frost,a haik
+3,"Write me a poem about sunrise, in the style of Walt Whitman, in the structure of a villanelle","In brisk morning’s silent sanctity, all aglow,
+Echoes of crimson threads in light’s grand weave,
+Awake within us daybreak’s hushed tableau.
+
+Dawn's whispers shroud the sleeping earth below,
+On Nature's loom, life's tapestry she'll conceive,
+In brisk morning’s silent sanctity, all aglow.
+
+A new existence dawns with rooster's crow,
+So subtly entwined, we scarcely perceive
+Awake within us daybreak’s h",sunrise,Walt Whitman,a villanell
+4,"Write me a poem about the vibrant city life, in the style of Langston Hughes, in the structure of a sestina","In veins of steel, pulses light's marquee,
+Story in shadows, chasing dreams.
+Whispers of life twine through concrete hearts,
+Echoed in haste, trade for twilight.
+Honking chants trace river's edges,
+City's song sung through gritty wind.",the vibrant city life,Langston Hughes,a sestin
+5,"Write me a poem about winter’s first snow, in the style of William Wordsworth, in the structure of a pantoum","Under frozen stars, hearts in whispers gleam,
+First snow's silent kiss fills the air.
+Night's icy veil holds a secret dream,
+Hinting a wonder, white and fair.
+
+First snow's silent kiss fills the air,
+Speaks not of cold, but of love's quiet prayer.
+Hinting a wonder, white and fair,
+Under frozen stars, hearts in whispers gleam.",winter’s first snow,William Wordsworth,a pantou
+6,"Write me a poem about a child's innocent laughter, in the style of Robert Burns, in the structure of a limerick","In eildon hills, 'neath empyrean blue,
+Spry bairn, sings to the unseen mew.
+Maun naught but purity here decree,
+His mirthful strains, fair glees o' glee?
+Ah love, tis life’s sweetest brew.",a child's innocent laughter,Robert Burns,a limeric
+7,"Write me a poem about a romantic summer evening, in the style of William Shakespeare, in the structure of a ghazal","The sun in retreat, by yonder sapphire veil concealed,
+A whispered sonnet 'neath the moon, heart’s truth revealed.
+
+In twilight’s glow, the lily shares a secret plight,
+In cherries sweet, love's essence on a summer night.",a romantic summer evening,William Shakespeare,a ghaza
+8,"Write me a poem about the aging process, in the style of Jenny Joseph, in the structure of a couplet","Worn no longer by the flutter of youth,
+Delicate threads hinting at some uncouth.
+
+Lives marked by sundials and weeny cracks,
+Etched with tales through life's tortuous tracks.
+
+In mirrors, we confront a gentle fray,
+Incrementally kiss our virulence away.",the aging process,Jenny Joseph,a couplet
+9,"Write me a poem about a forgotten town, in the style of E. E. Cummings, in the structure of a terza rima","Old soul whispers, Tara's town in tangible-twilight,
+unevenly lamplight loses stories to the silent sigh.
+Echoes knot into cobwebs, whispers trace twilight.
+
+Rain wraps roads in memory's mystery,
+Phantom faces flicker in the window's wane.
+Invisible ink of history.",a forgotten town,E. E. Cummings,a terza rim
+10,"Write me a poem about a stormy sea journey, in the style of Alfred Tennyson, in the structure of a rondeau","In shadowed whispers, Tempest's echo sighs,
+Her tale of voyage veiled in terse disguise. 
+A gallant ship in tumult, shroud untold,
+Where deep sea dragons and dire phantoms hold.
+All truths are tides within the hushed surprise.",a stormy sea journey,Alfred Tennyson,a rondea
+11,"Write me a poem about an old lighthouse, in the style of Sylvia Plath, in the structure of a villanelle","In the maze of lost, veiled desires,
+Bleeds the ghost of ancient fires,
+Echo down the years, as pyres.
+
+Rocks kissed by salty tears dry,
+Vestiges of promises lie,
+Like lanterns in a leaden sky.
+
+Ghost of ancient fires, declare
+Your elusive, spectral glare;
+Phantom comfort in sea's cold lair.
+
+Harbor lies steeped in despair,
+Echo down the years, beware.
+In the maze of lost, from where?
+
+Foot",an old lighthouse,Sylvia Plath,a villanell
+12,"Write me a poem about blossoming love, in the style of Anne Sexton, in the structure of a ghazal","In shadowed silhouettes, dalliance blooms—night's clandestine pearl.
+Unfolding hearts whisper tacit vows, in night's clandestine pearl.
+
+Through echoed laughter, the veil of silence tears,
+A tender symphony strums unseen—in night's clandestine pearl.
+
+Passion lingers on hushed lips, unsaid yet heard,
+Like unquenched thirst it savors, in night's clandestine pearl.",blossoming love,Anne Sexton,a ghaza
+13,"Write me a poem about a soldier's sacrifice, in the style of Wilfred Owen, in the structure of a sonnet","An oak steadfast 'midst tempest's wild embrace,
+He yields life's spring to autumn’s field of woe,
+Essence bleeds into a barren place,
+A dance with death, shadows in evening's glow.
+Yet not for glory’s hollow call he fell -
+'Twas love of kin, not kings, spurred his demise.
+His final tale, akin to tolling bell,
+Sung softly through the echoes of their cries.
+In silent fold of night's cold, starry quilt,
+",a soldier's sacrifice,Wilfred Owen,a sonne
+14,"Write me a poem about technology's impact, in the style of Maya Angelou, in the structure of a ode;
+
+Write me a poem about nostalgia, in the style of Pablo Neruda, in the structure of a pantoum","Ode to Progress (In the style of Maya Angelou)
+
+Lo! Behold the mighty tools we wield,
+Each nuanced shift a technological drum beat, 
+Spinning our dreams into webs of steel,
+Crafting heartbeats into fleets of silicon feet.
+
+Verily, we’ve swallowed time whole.
+Seecom, Tweetdom; brothers swift under our command,
+Invisible messengers racing on wi-fi’s soul,
+Carry our voices across this increasingly small land.
+
+But with brazen ambition come",technology's impact,Maya Angelou,a ode
+15,"Write me a poem about the first rainfall, in the style of Samuel Taylor Coleridge, in the structure of a limerick","Beneath a dome of teardrop lace, in subtle dance they trace,
+Their gentle taps on cobweb's grace, a symphony in space.
+Life's quill to gray-skinned parchment hews, with Nature as its muse,
+In veiled form — springtime's debut.
+
+The first rain - Nature's refuse.",the first rainfall,Samuel Taylor Coleridge,a limeric
+16,"Write me a poem about the mysteries of the ocean, in the style of Herman Melville, in the structure of a haiku","In depths profound and cool,
+Veiled truths lie dormant still; 
+A lore untold, fierce and cruel,
+Danced to Neptune's will.
+
+Hark the whale song's pleading tale,
+Echoes of salt-stained thrill; 
+Night’s shroud worn, daylight frail,
+In the ocean's twill. 
+
+Unfathomable abyss of blue,
+Each secret to fulfill;
+The tempest's mournful whispering rue
+With treasures hearts instill.
+  
+Mariner’s soul,",the mysteries of the ocean,Herman Melville,a haik
+17,"Write me a poem about an unforgettable adventure, in the style of Carl Sandburg, in the structure of a rondeau","In daybreak's hush, the heart begs more,
+where shadows’ quilt mend tale of yore.
+A whisper in a timeworn lore,
+forests, unflinching as before,
+remembers not, yet marks the score.
+In dreams we roam, on an unseen shore.",an unforgettable adventure,Carl Sandburg,a rondea
+18,"Write me a poem about the joy of reading, in the style of Louise Gluck, in the structure of a ghazal","In the tranquil dusk, a whispered solace found,
+In silent echoes, tales of old abound.
+
+Light whispers its verse, dreams woven profound,
+In paper's cradle, a world's wisdom is bound.
+
+In these boundless realms, I am unbound,
+Life's hidden truths in ink's sea are drowned.",the joy of reading,Louise Gluck,a ghaza
+19,"Write me a poem about the beauty of moonlight, in the style of  John Keats, in the structure of a sonnet","Sonnet to Moonlight
+
+'O, thou that danceth in the raven night,
+Effulgence of the ethereal, quiet light.
+Betwixt the stars, thy lustrous face shines bright,
+In whispering sheen of archaic delight.
+
+Thou beacon of poets, and lovers' sight,
+Bathing earthly forms in celestial white.
+For thou dost turn mundane to mystic rite,
+And make even darkness lovely, oh Moonlight.
+
+For as thou wane",the beauty of moonlight, John Keats,a sonnet
+20,"Write me a poem about a fleeting moment, in the style of Virginia Woolf, in the structure of a haiku","Beneath the gauze-winged moon, we dine,
+Phantom waltz, sequent in time.
+Obscure and brief, a covert jest,
+Life is but a moment's rest. 
+
+Glimmer fades, as echoes part—
+An evanescent work of art.
+
+Fleeting as a gasp of air,
+Slips the fox in midnight's lair.
+In that second tryst unseen,
+Lingered lies our might-have-been.
+Like",a fleeting moment,Virginia Woolf,a haik
+21,"Write me a poem about the longing of a lonely heart, in the style of Charlotte Bronte, in the structure of a pantoum","In the shadows where night clings tight,
+Panes, veiled by frost's grim delight.
+Desire whispers in timbre flight,
+Moth seeks candle's unreachable light. 
+
+Panes, veiled by frost's grim delight,
+Sheathed in silence, shunning sight,
+Moth seeks candle's unreachable light,
+In the shadows where night clings tight.",the longing of a lonely heart,Charlotte Bronte,a pantou
+22,"Write me a poem about a royal palace, in the style of Geoffrey Chaucer, in the structure of a sonnet","Upon the verdant plains 'neath Heaven's gaze,
+Where bloom'd incomparable jewels and jade,
+Neath gilded peaks did glow the twilight haze,
+Display'd in contour's sweetest serenade.
+
+The noble edifice, a shrouded tale,
+Beyond its gleaming gate of mystery,
+The echo of harp, lute's tender wail,
+Conceal'd within a clois'tr'd history.
+
+In quiet nooks its secret life did rouse,
+‘Midst",a royal palace,Geoffrey Chaucer,a sonne
+23,"Write me a poem about a magical forest, in the style of J.R.R Tolkien, in the structure of a couplet","Through veiled whispers cloaked in night, an echoed sigh doth muse,
+Of leaf-charmed dance 'neath vernal skies, mere mortals might confuse.
+
+Crowned with moon-kissed emerald sheen, this realm soon takes its flight,
+In woven dreams and shadows’ lean, under the star-kiss glassy light.",a magical forest,J.R.R Tolkien,a couple
+24,"Write me a poem about the passage of time, in the style of Thomas Hardy, in the structure of a terza rima","Beneath the stoic stone and mossy rime,
+A fleeting echo whispers through our span.
+Yet lingers not, this fickle snitch of time.
+
+Our hours churned in Fate's indifferent pan,
+Till stars recede, and tales escape each clan.",the passage of time,Thomas Hardy,a terza rim
+25,"Write me a poem about the thrill of a chase, in the style of Robert Browning, in the structure of a sestina","Oh swift ecstasy, the quarry flees,
+A cloak of mystery 'round His feet swirls.
+Browning whispers through life's muted breeze,
+In pursuit, Foreign Beauty unfurls.
+Each chimed echo an unmet promise,
+Unveiled in the thrill of a poet's premise.",the thrill of a chase,Robert Browning,a sestin
+26,"Write me a poem about old books, in the style of Oscar Wilde, in the structure of a limeric","Age-worn tales that ears dare slander,
+In hushed corners find their grandeur.
+Crafter of ventures bold, forgotten and gold,
+Marred by mortal curse, yet emerging smarter, bolder,
+Whisper secrets only a noble heart can shoulder.",old books,Oscar Wilde,a limeric
+27,"Write me a poem about a sailor's life, in the style of Charles Dickens, in the structure of a ballad","Upon yonder crest of briny blue,
+A lonely heart seeks tales anew.
+Half-soused in sorrow, half in ale,
+On gales of dreams, his thoughts set sail.
+In sea-sprayed whispers and salt-flecked strife,
+There dances a song—veiled in sailor's life.",a sailor's life,Charles Dickens,a balla
+28,"Write me a poem about an abandoned castle, in the style of J.K Rowling, in the structure of a pantoum","Whispers roam in echoes lost, weaving tales of haunted frost,
+Emblems weathered by time's cost, hearthstone's chill of love embossed.
+Weaving tales of haunted frost, grey ruins warbling secret ost,
+Hearthstone's chill of love embossed, whispers roam in echoes lost.",an abandoned castle,J.K Rowling,a pantou
+29,"Write me a poem about the wonders of dreams, in the style of Lewis Carroll, in the structure of a villanelle","In sleep’s realm we twirl, shift and veer,
+Whence shapes of whispers softly leer.
+In cloak of night, truths appear clear.
+
+Our minds on star paths smoothly steer,
+Mere specks of dust in time's frontier.
+
+Through looking glass things oft seem queer,
+Of Jabberwocky have no fear.
+Like Cheshire grins that disappear,
+In dreams, we're Alice, never mere. 
+
+A cryptic dance, no puppeteer,
+Amidst the dream",the wonders of dreams,Lewis Carroll,a villanell
+30,"Write me a poem about a traveller's journey, in the style of Jack Kerouac, in the structure of a ghazal","Under neon opium skies, wayward soul surges,
+Nomad heart hums a verse, to the road it indulges.
+
+Battered boots kissed by dust, chasing ephemeral urges,
+In the silent script of miles, a traveller's tale emerges.",a traveller's journey,Jack Kerouac,a ghaza
+31,"Write me a poem about the breaking of dawn, in the style of Mark Twain, in the structure of a sonnet","In Twain's favor, subtle tale is spun,
+Through veiled whispers, night retreats undone.
+In hushed tones declares the raven's yawn,
+Starlight's departure proclaims the morn.
+Cracks in darkness, twilight's farewell pawn,
+In shadows bear the secrets of dawn.",the breaking of dawn,Mark Twain,a sonne
+32,"Write me a poem about a lost civilisation, in the style of Jules Verne, in the structure of an ode","Beneath the veil of ancient lore,
+In twilight's hush, behind sea's door,
+Once thrived a realm no eyes behold,
+In whispers green and granite cold.
+Alas! Time's hand, imperious sweep,
+Laid low its secrets in abyss deep.",a lost civilisation,Jules Verne,an od
+33,"Write me a poem about the melancholy autumn, in the style of Ernest Hemingway, in the structure of a limeric","In pubs where burnt leaves are thought,
+To gingers we've with woe bought.
+Chilled winds through hearts, unseen cuts they've sought,
+In mugs of cider, quiet battles fought.
+Autumn's folly, in amber hues caught.",the melancholy of autumn,Ernest Hemingway,a limeric
+34,"Write me a poem about an artistic muse, in the style of Leonardo da Vinci, in the structure of a pantoum","In night's soft hush, ideas become my stars,
+Vivid, in whispering hues and hidden lines.
+Through veined marble, my creation calls,
+Mirroring her golden voice in the divine.
+
+Vivid, in whispering hues and hidden lines,
+She sings oh so eloquently from the stone.
+Mirroring her golden voice in the divine;
+She is silence broken with palette and bone.
+
+She sings oh so eloquently from the stone,
+Through veined marble, my creation calls",an artistic muse,Leonardo da Vinci,a pantou
+35,"Write me a poem about an ancient warrior, in the style of Stephen King, in the structure of a haiku","Shadow blades cut moon,
+Kingdoms crumble, fear his tune,
+Life's thread snipped, too soon.",an ancient warrior,Stephen King,a haik
+36,"Write me a poem about a potent love potion, in the style of Roald Dahl, in the structure of a rondeau","In Frobscottle's frothy brew,
+Giggles bubble, lovers gaily ensue.
+Catch a whiff, heart ignites,
+A fizzling, sizzling delight.
+A phizzwizard of affection, it's true,
+In Frobscottle's frothy brew.",a potent love potion,Roald Dahl,a rondea
+37,"Write me a poem about enchanted woods, in the style of Rudyard Kipling, in the structure of a villanelle","Beneath the hush, a tale remains unfurled,
+Where whispers green speak cryptic, unseen words.
+Secrets kept in roots of the enchanted world,
+Moonlight’s touch paints shadows on sleek birds.
+Sung is silence by the wind, story twirled.",enchanted woods,Rudyard Kipling,a villanell
+38,"Write me a poem about the excitement of a storm, in the style of Joseph Conrad, in the structure of a sonnet","Sonnet upon the Tempest's Fervor (Joseph Conrad style)
+
+When morn breaks hither on the sea's vast stew,
+a tempest in its cradle softly lies.
+Yet 'fore the day has bid its dark adieus,
+a fervor in blackened clouds shall arise.
+Hear how tumultuous heaven cries aloud!
+Thrilling the hearts of all who roam these tides.
+In this wild ballet, creation is proud,
+and Nature, in her fury, never hides",the excitement of a storm,Joseph Conrad,a sonnet
+39,"Write me a poem about an aimless wanderer, in the style of George Orwell, in the structure of a sestina","Through shadows earned, the nameless roamed,
+A cipher etched in twilight's tome,
+Unfettered by a concrete goal,
+Drifting, like time’s unconquered soul. 
+Seen yet unseen, this wisp of tale,
+An untold narrative of gale.",an aimless wanderer,George Orwell,a sestin
+40,"Write me a poem about humanity's future, in the style of Isaac Asimov, in the structure of a pantoum","Radiance of stars in a blackened abyss,
+Evolution’s child steps into the unknown.
+As coded whispers trace cosmic helix,
+Gift of tomorrow remains yet unshown.
+
+Evolution’s child steps into the unknown,
+In subtle silence lies the key.
+Gift of tomorrow remains yet unshown,
+In subtle silence, we are set free.
+
+In subtle silence lies the key;
+As coded whispers trace cosmic helix.
+In subtle silence, we are set free,
+Radiance of stars in a blackened",humanity's future,Isaac Asimov,a pantou
+41,"Write me a poem about an isolated island, in the style of H.G Wells, in the structure of a sonnet","In the realm of silence, whispers echo life,
+Unbroken whispers, like undying strife,
+Lo! A solitaire veiled in timeless guise;
+Less so an island, more untouched world lies.
+Where solitude reigns and moon secrets hide,
+A cloistered cosmos with the ebb as guide.",an isolated island,H.G Wells,a sonne
+42,"Write me a poem about the magic of a first kiss, in the style of Nicolas Sparks, in the structure of a haiku","Moonlit eyes reflect
+Time's river: gentle, merges.
+Two souls dance by touch
+
+How sweet, secret pact,
+In stardust whispers unveiled.
+Eternity hatched. 
+
+Transient yet vast,
+In a breath’s tender waltz: sealed.
+No more ghosts of past.",the magic of a first kiss,Nicolas Sparks,a haik
+43,"Write me a poem about a bustling marketplace, in the style of Gabriel Garcia Marquez, in the structure of a ghazal","Within veiled whispers, secrets are bartered,
+In the bazaar of unsaid words, trades started.
+
+Sunlight tiptoes on copper kettles allowed,
+A ballet of shadows softly charted.
+
+Every gaze a sought tale, echoes loud,
+In loves lost, dreams hearted.",a bustling marketplace,Gabriel Garcia Marquez,a ghaza
+44,"Write me a poem about the secrets of the deep sea, in the style of Aldous Huxley, in the structure of a balla","In deep silence, whispers speak,
+Echoes of tales, ocean’s critique.
+Mysteries shrouded in Neptune’s shawl,
+In Davy Jones’s cathedral hall.
+Dance, oh secrets, in abyssal sweep,
+Thine concert with the silence of the deep.",the secrets of the deep sea,Jacques Cousteau,a balla
+45,"Write me a poem about the dance of the auroras, in the style of Aldous Huxley, in the structure of a rondeau","Silver whispers weave in night's cold breath, a tale spun
+In isolation's artist loft, 'neath a veil none can shun,
+Of spectral twirling ghosts, truth's ribbon unfurl
+Melting icy silence, as cosmic swirls twirl.
+A love story painted by Eos' wakening sun.",the dance of the auroras,Aldous Huxley,a rondea
+46,"Write me a poem about the whisper of the wind, in the style of Harper Lee, in the structure of a sonnet","In morning's veil, one secret scribed in air,
+Elusive as a mockingbird's soft song.
+It hums of tales, half-breathed in silent prayer,
+A gossamer voice where hidden truths belong.
+
+Alone it dances among the verdant leaves,
+An echo of some long-forgotten day.
+The gentlest murmur, dreams the dawn retrieves,
+Its rhythm paints silence in shades of grey.
+
+Whispers wander where only hearts may hear,
+This voice that lies in quiet",the whisper of the wind,Harper Lee,a sonne
+47,"Write me a poem about an exotic bird, in the style of Margaret Atwood, in the structure of an ode","In lapis lazuli shards, whispers a clandestine tale,
+Of obsidian silk stain, sun-thread tapestry unveil.
+A serenade of shadows, beneath Your emerald veil,
+An fervent aria falters, in love's silent braille.",an exotic bird,Margaret Atwood,an od
+48,"Write me a poem about the wonders of the universe, in the style of Albert Einstein, in the structure of a limerick","In a realm where light's speed does confine,
+Quarks and quasars in dance intertwine.
+Time is but a suggestion,
+Space, relative perception,
+Deep in this cosmic design, secrets twine.",the wonders of the universe,Albert Einstein,a limeric
+49,"Write me a poem about a grand feast, in the style of Anthony Bourdain, in the structure of a haiku.
+
+Write me a poem about the thrill of exploration, in the style of Christopher Columbus, in the structure of a pantoum","Feast of senses, bright,
+Spices dance in moon's cool light.
+World tastes in one night.
+
+Star-kissed horizon hides,
+An ancient pulse inside it rides,
+Inside it rides, the star-kissed skies
+Boundless, where true mystery lies.
+
+Mystery as vast as sea tides,
+An ancient pulse inside it bides. 
+Under whispers of pines and wild thyme,
+Of future glories promises chime.
+
+Promises chime under hallowed time,
+",a grand feast,Anthony Bourdain,a haiku
+50,"Write me a poem about a daunting mountain peak, in the style of Edmund Hillary, in the structure of a villanelle","Valiant hearts, behold the grandeur seek,
+In shadows under heaven, talk not so weak,
+Speak less, aim high, against the mountain peak.
+
+Silence whispers secrets only for the meek,
+In quietude find strength when spirits leak.
+Valiant hearts, behold the grandeur seek.
+
+The terrain's language, it is oblique,
+Its towering testament leaves tongues too weak,
+Speak less, aim high, against the mountain peak.
+
+Amidst stone titans' jagged creek,
+",a daunting mountain peak,Edmund Hillary,a villanell
+51,"Write me a poem about a mighty river, in the style of Mark Twain, in the structure of a sonnet","As a raconteur murmurs tales in the dark,
+An unseen force shapes the land gentle arch.
+Veins of destiny penned by God's own mark,
+Boisterous whispers and secrets they embark.
+
+In its endless flow, holds power untamed,
+Ghosts of steamboats, the past's fervor framed.
+Unseen journeys rest beneath liquid mane,
+A story unwritten, a saga unnamed.
+
+Under moon's watchful, pearl-ivory glow,
+Marshals life's rhythm in e",a mighty river,Mark Twain,a sonne
+52,"Write me a poem about the joys of childhood, in the style of Dr. Seuss, in the structure of a limerick","In the twirl of the daisy, in the breeze's gentle hiss,
+In games of make-believe, in a best friend's kiss.
+Life’s a merry game and quite a thrilling ride,
+In an innocent vasg land, where worries hide.",the joys of childhood,Dr. Seuss,a limeric
+53,"Write me a poem about the sorrow of saying goodbye, in the style of Charlotte Bronte, in the structure of an ode","Through whispers of the willow, heart-fanged adieu,
+A lonesome waltz of thorns in twilight's hue.
+In veiled torment, dances the morning dew,
+Betwixt fleeting shadows, pain silently grew.
+
+Eternal echoes of a once radiant sun,
+Now masked in sorrow; their final song spun.",the sorrow of saying goodbye,Charlotte Bronte,an od
+54,"Write me a poem about the hustle of urban life, in the style of F. Scott Fitzgerald, in the structure of a haiku","In shadows cast by steel and glass,
+Opulence masked in humble pass.
+Frenzied heartbeats fuel the dance,
+City's tune, in swift advance.
+
+Beneath neon lights, dreams take flight,
+In sleepless eyes, echoes of twilight.
+Unseen gears in ceaseless turn,
+Hint urban lessons to discern.
+ 
+",the hustle of urban life,F. Scott Fitzgerald,a haik
+55,"
+
+Write me a poem about the fleeting beauty of a sunset, in the style of Emily Bronte, in the structure of a sonnet","Day's end whispers a hushed, crimson vow,
+Barely audible betwixt the bough.
+In transient light, secrets confessed,
+Daylight wanes, in colored undress.
+
+Golden love shared with sapphire crest,
+Elegy of light in dusk's bequest,
+For beauty in ethereal flight we chase,
+Threads spun of luminary embrace.
+
+Heart echoes this melody divine,
+Of amber glow and twilight's wine.
+Ode to fleeting moments, we lament
+Underneath",the fleeting beauty of a sunset,Emily Bronte,a sonne
+56,"Write me a poem about the resilience of the human spirit, in the style of Maya Angelou, in the structure of an ode","Ode of splendor, dipped in grit,
+In shadows, raw, we yet are lit.
+Broke - yet whole pure tapestry,
+We dance with life’s dichotomy.
+Fallen, rise in swift accord,
+Unseen warriors; stalwartly gird,
+In whispers of our spirit’s song,
+Resilience bold and lifelong strong.",the resilience of the human spirit,Maya Angelou,an od
+57,"Write me a poem about the depth of the night sky, in the style of Albert Einstein, in the structure of a ghazal","In equations of darkness, inked by constellations scribed,
+Of unseen forces, bound we are; so subtly, stars imbibed.
+
+In yielding stillness whispers light; a silent cosmos thrived,
+Eternity in every glance—an equation solved, described.",the depth of the night sky,Albert Einstein,a ghaza
+58,"Write me a poem about the stillness of an abandoned house, in the style of Edgar Allan Poe, in the structure of a villanelle","In shadows deep where memories cease to play,
+Timber creaks yet none answer its aging call.
+Silence reigns, lord of endless disarray.
+
+Night whispers tales in its soft sullen way,
+Of empty halls, for time has claimed them all.
+In shadows deep where memories cease to play.
+
+Moonlight dances on dust where specters lay,
+Through shattered glass once jewels in the fall,
+Silence reigns, lord of endless disarray.
+
+A lonesome echo in the dark",the stillness of an abandoned house,Edgar Allan Poe,a villanell
+59,"Write me a poem about the magic of music, in the style of Ludwig van Beethoven, in the structure of a rondeau","In heart's discourse, unseen notes align,
+Beyond mere words, their whispers intertwine.
+The silent dance of souls benign,
+A timeless thread, we may not define.
+
+Touched by the grace of the divine,
+In heart's discourse, unseen notes align.",the magic of music,Ludwig van Beethoven,a rondea
+60,"Write me a poem about the wonder of art, in the style of Picasso, in the structure of an ode","In stained mosaic dreams, whispered in colors bright,
+Obscure, hidden within chaos, a spark ignites.
+Oh, silent symphony of mind’s palette pure,
+Your voiceless verse weaves beauty obscure.
+Through shards of life - distorted, separate -
+In you, Picasso’s riddle resonates.",the wonder of art,Picasso,an od
+61,"
+
+Write me a poem about the endless desert, in the style of Lawrence of Arabia, in the structure of a pantoum","In amber waves reside tales of yore,
+Fierce whispers swirling, held in every grain.
+Endless, shifting sands of lore,
+Barely touched by gentle rain.
+
+Fierce whispers swirling, held in every grain.
+Wise sun kisses land sparse and plain,
+Barely touched by gentle rain.
+Time's secret symphony plays again.
+
+Wise sun kisses land sparse and plain.
+Endless, shifting sands of lore,
+Time's secret symphony plays again,
+In amber waves reside tales",the endless desert,Lawrence of Arabia,a pantou
+62,"Write me a poem about the call of the wild, in the style of Jack London, in the structure of a sonnet","In whispers of pine, stark echoes rebound,
+Beneath winter's kiss, where silence is found.
+A mystic enthrallment, the moon gleams so bright,
+While specters of instincts dance in night’s sight.
+To the pulse of ancient echoes, we're bound,
+In the savage song, an unvoiced sound.",the call of the wild,Jack London,a sonne
+63,"Write me a poem about an unlikely friendship, in the style of Harper Lee, in the structure of a haiku","Autumn leaves afloat,
+Fox and crow share fleeting peace.
+Speechless, they observe.
+
+Under pallid moon,
+Silent whispers in the trees. 
+Shared secrets unfold. 
+
+Dawn's chorus echoes,
+In the stillness friendship blooms;
+An unspoken bond.",an unlikely friendship,Harper Lee,a haik
+64,"Write me a poem about the sweetness of a sunny day, in the style of John Keats, in the structure of a limerick","In daytime glow, nectar’d light does play,
+Whence spirits lift and shadows dismay.
+Ah! Veil in gauzy hue so fine,
+Like summer wine and joy divine.
+Sip the sweetness of the sun's array.",the sweetness of a sunny day,John Keats,a limerick
+65,"Write me a poem about a dream, in the style of Edgar Allan Poe, in the structure of a ballad","Dormant in gloom, whispers of despair,
+A hushed illusion held in ether’s affair.
+
+Specters dance ‘neath the moonstone's gleam,
+Through forbidden echoes screams",a dream,Edgar Allan Poe,a ballad
