@@ -6,7 +6,7 @@ python3 -mvenv venv
 
 source venv/bin/activate
 
-pip install .
+pip install -r requirements.txt
 
 code .
 
