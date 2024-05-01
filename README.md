@@ -11,3 +11,5 @@ pip install -r requirements.txt
 code .
 
 You may need to set your Helicone key, with export HELICONE_API_KEY = <key>
+
+Note: The code currently does not include the front-end UI, which is still being integrated. During our data collection today, we demoed the code and UI separately.
