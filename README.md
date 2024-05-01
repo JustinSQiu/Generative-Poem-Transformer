@@ -1,7 +1,7 @@
 # Generative-Poem-Transformer
 CIS 7000 Final Project
 
-## Run Instructions
+## Running Instructions
 python3 -mvenv venv
 
 source venv/bin/activate
@@ -9,3 +9,5 @@ source venv/bin/activate
 pip install .
 
 code .
+
+You may need to set your Helicone key, with export HELICONE_API_KEY = <key>
