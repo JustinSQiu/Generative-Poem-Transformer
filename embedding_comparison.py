@@ -100,47 +100,37 @@ def generate_and_save_embeddings():
     happy_embeddings_tensor = torch.tensor(happy_embeddings)
     sad_embeddings_tensor = torch.tensor(sad_embeddings)
 
-    formal_pooled = torch.mean(formal_embeddings_tensor, dim=0)
-    informal_pooled = torch.mean(informal_embeddings_tensor, dim=0)
-    traditional_pooled = torch.mean(traditional_embeddings_tensor, dim=0)
-    modern_pooled = torch.mean(modern_embeddings_tensor, dim=0)
-    serious_pooled = torch.mean(serious_embeddings_tensor, dim=0)
-    funny_pooled = torch.mean(funny_embeddings_tensor, dim=0)
-    romantic_pooled = torch.mean(romantic_embeddings_tensor, dim=0)
-    cynical_pooled = torch.mean(cynical_embeddings_tensor, dim=0)
-    rhythmic_pooled = torch.mean(rhythmic_embeddings_tensor, dim=0)
-    free_pooled = torch.mean(free_embeddings_tensor, dim=0)
-    intense_pooled = torch.mean(intense_embeddings_tensor, dim=0)
-    relaxed_pooled = torch.mean(relaxed_embeddings_tensor, dim=0)
-    emotional_pooled = torch.mean(emotional_embeddings_tensor, dim=0)
-    rational_pooled = torch.mean(rational_embeddings_tensor, dim=0)
-    profound_pooled = torch.mean(profound_embeddings_tensor, dim=0)
-    superficial_pooled = torch.mean(superficial_embeddings_tensor, dim=0)
-    expressive_pooled = torch.mean(expressive_embeddings_tensor, dim=0)
-    restrained_pooled = torch.mean(restrained_embeddings_tensor, dim=0)
-    happy_pooled = torch.mean(happy_embeddings_tensor, dim=0)
-    sad_pooled = torch.mean(sad_embeddings_tensor, dim=0)
+    formal_pooled = torch.mean(formal_embeddings_tensor, dim=0) - torch.mean(informal_embeddings_tensor, dim=0)
+    traditional_pooled = torch.mean(traditional_embeddings_tensor, dim=0) - torch.mean(modern_embeddings_tensor, dim=0)
+    serious_pooled = torch.mean(serious_embeddings_tensor, dim=0) - torch.mean(funny_embeddings_tensor, dim=0)
+    romantic_pooled = torch.mean(romantic_embeddings_tensor, dim=0) - torch.mean(cynical_embeddings_tensor, dim=0)
+    rhythmic_pooled = torch.mean(rhythmic_embeddings_tensor, dim=0) - torch.mean(free_embeddings_tensor, dim=0)
+    intense_pooled = torch.mean(intense_embeddings_tensor, dim=0) - torch.mean(relaxed_embeddings_tensor, dim=0)
+    emotional_pooled = torch.mean(emotional_embeddings_tensor, dim=0) - torch.mean(rational_embeddings_tensor, dim=0)
+    profound_pooled = torch.mean(profound_embeddings_tensor, dim=0) - torch.mean(superficial_embeddings_tensor, dim=0)
+    expressive_pooled = torch.mean(expressive_embeddings_tensor, dim=0) - torch.mean(restrained_embeddings_tensor, dim=0)
+    happy_pooled = torch.mean(happy_embeddings_tensor, dim=0) - torch.mean(sad_embeddings_tensor, dim=0)
 
     torch.save(formal_pooled, 'data/formal_pooled.pt')
-    torch.save(informal_pooled, 'data/informal_pooled.pt')
+    # torch.save(informal_pooled, 'data/informal_pooled.pt')
     torch.save(traditional_pooled, 'data/traditional_pooled.pt')
-    torch.save(modern_pooled, 'data/modern_pooled.pt')
+    # torch.save(modern_pooled, 'data/modern_pooled.pt')
     torch.save(serious_pooled, 'data/serious_pooled.pt')
-    torch.save(funny_pooled, 'data/funny_pooled.pt')
+    # torch.save(funny_pooled, 'data/funny_pooled.pt')
     torch.save(romantic_pooled, 'data/romantic_pooled.pt')
-    torch.save(cynical_pooled, 'data/cynical_pooled.pt')
+    # torch.save(cynical_pooled, 'data/cynical_pooled.pt')
     torch.save(rhythmic_pooled, 'data/rhythmic_pooled.pt')
-    torch.save(free_pooled, 'data/free_pooled.pt')
+    # torch.save(free_pooled, 'data/free_pooled.pt')
     torch.save(intense_pooled, 'data/intense_pooled.pt')
-    torch.save(relaxed_pooled, 'data/relaxed_pooled.pt')
+    # torch.save(relaxed_pooled, 'data/relaxed_pooled.pt')
     torch.save(emotional_pooled, 'data/emotional_pooled.pt')
-    torch.save(rational_pooled, 'data/rational_pooled.pt')
+    # torch.save(rational_pooled, 'data/rational_pooled.pt')
     torch.save(profound_pooled, 'data/profound_pooled.pt')
-    torch.save(superficial_pooled, 'data/superficial_pooled.pt')
+    # torch.save(superficial_pooled, 'data/superficial_pooled.pt')
     torch.save(expressive_pooled, 'data/expressive_pooled.pt')
-    torch.save(restrained_pooled, 'data/restrained_pooled.pt')
+    # torch.save(restrained_pooled, 'data/restrained_pooled.pt')
     torch.save(happy_pooled, 'data/happy_pooled.pt')
-    torch.save(sad_pooled, 'data/sad_pooled.pt')
+    # torch.save(sad_pooled, 'data/sad_pooled.pt')
 
 formal_pooled = None
 informal_pooled = None
@@ -209,23 +199,43 @@ def load_embeddings():
 
 def compare(poem):
     embedded_poem = model.encode(poem)
-    formal_score = cosine_similarity([embedded_poem], [formal_pooled])[0][0] - cosine_similarity([embedded_poem], [informal_pooled])[0][0]
-    traditional_score = cosine_similarity([embedded_poem], [traditional_pooled])[0][0] - cosine_similarity([embedded_poem], [modern_pooled])[0][0]
-    serious_score = cosine_similarity([embedded_poem], [serious_pooled])[0][0] - cosine_similarity([embedded_poem], [funny_pooled])[0][0]
-    romantic_score = cosine_similarity([embedded_poem], [romantic_pooled])[0][0] - cosine_similarity([embedded_poem], [cynical_pooled])[0][0]
-    rhythmic_score = cosine_similarity([embedded_poem], [rhythmic_pooled])[0][0] - cosine_similarity([embedded_poem], [free_pooled])[0][0]
-    intense_score = cosine_similarity([embedded_poem], [intense_pooled])[0][0] - cosine_similarity([embedded_poem], [relaxed_pooled])[0][0]
-    emotional_score = cosine_similarity([embedded_poem], [emotional_pooled])[0][0] - cosine_similarity([embedded_poem], [rational_pooled])[0][0]
-    profound_score = cosine_similarity([embedded_poem], [profound_pooled])[0][0] - cosine_similarity([embedded_poem], [superficial_pooled])[0][0]
-    expressive_score = cosine_similarity([embedded_poem], [expressive_pooled])[0][0] - cosine_similarity([embedded_poem], [restrained_pooled])[0][0]
-    happy_score = cosine_similarity([embedded_poem], [happy_pooled])[0][0] - cosine_similarity([embedded_poem], [sad_pooled])[0][0]
+    # formal_score = cosine_similarity([embedded_poem], [formal_pooled])[0][0] - cosine_similarity([embedded_poem], [informal_pooled])[0][0]
+    # traditional_score = cosine_similarity([embedded_poem], [traditional_pooled])[0][0] - cosine_similarity([embedded_poem], [modern_pooled])[0][0]
+    # serious_score = cosine_similarity([embedded_poem], [serious_pooled])[0][0] - cosine_similarity([embedded_poem], [funny_pooled])[0][0]
+    # romantic_score = cosine_similarity([embedded_poem], [romantic_pooled])[0][0] - cosine_similarity([embedded_poem], [cynical_pooled])[0][0]
+    # rhythmic_score = cosine_similarity([embedded_poem], [rhythmic_pooled])[0][0] - cosine_similarity([embedded_poem], [free_pooled])[0][0]
+    # intense_score = cosine_similarity([embedded_poem], [intense_pooled])[0][0] - cosine_similarity([embedded_poem], [relaxed_pooled])[0][0]
+    # emotional_score = cosine_similarity([embedded_poem], [emotional_pooled])[0][0] - cosine_similarity([embedded_poem], [rational_pooled])[0][0]
+    # profound_score = cosine_similarity([embedded_poem], [profound_pooled])[0][0] - cosine_similarity([embedded_poem], [superficial_pooled])[0][0]
+    # expressive_score = cosine_similarity([embedded_poem], [expressive_pooled])[0][0] - cosine_similarity([embedded_poem], [restrained_pooled])[0][0]
+    # happy_score = cosine_similarity([embedded_poem], [happy_pooled])[0][0] - cosine_similarity([embedded_poem], [sad_pooled])[0][0]
+    formal_score = cosine_similarity([embedded_poem], [formal_pooled])[0][0]
+    traditional_score = cosine_similarity([embedded_poem], [traditional_pooled])[0][0]
+    serious_score = cosine_similarity([embedded_poem], [serious_pooled])[0][0]
+    romantic_score = cosine_similarity([embedded_poem], [romantic_pooled])[0][0]
+    rhythmic_score = cosine_similarity([embedded_poem], [rhythmic_pooled])[0][0]
+    intense_score = cosine_similarity([embedded_poem], [intense_pooled])[0][0]
+    emotional_score = cosine_similarity([embedded_poem], [emotional_pooled])[0][0]
+    profound_score = cosine_similarity([embedded_poem], [profound_pooled])[0][0]
+    expressive_score = cosine_similarity([embedded_poem], [expressive_pooled])[0][0]
+    happy_score = cosine_similarity([embedded_poem], [happy_pooled])[0][0]
     return formal_score, traditional_score, serious_score, romantic_score, rhythmic_score, intense_score, emotional_score, profound_score, expressive_score, happy_score
 
 def main():
     # generate_and_save_embeddings()
     load_embeddings()
-    print(compare("woo skeet this is lit."))
-    print(compare("today is a miserable day"))
+    print(compare('Sunrise reveals, yet falsehood in its prime,\
+With gilded charlatan ray, the eternal mime.\
+Alas, dawn breaks in treacherous sublime. \
+\
+Gold vestures draped upon the worlds grime,\
+Damned daybreak, hailed as divine.\
+Sunrise reveals, yet falsehood in its prime.'))
+    print(compare('Mornings speak of you, each dawn anew,\
+Courting shadows away, with golden hue.\
+My heart awakes with the sunrise view,\
+Feeling loves warmth, but its all from you,\
+In you, the sunrise, my heart finds its view'))
 
 if __name__ == "__main__":
     main()
