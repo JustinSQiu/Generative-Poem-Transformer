@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 import torch
+import numpy as np
 
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
@@ -155,7 +156,8 @@ sad_pooled = None
 
 def load_embeddings():
     global formal_pooled, informal_pooled, traditional_pooled, modern_pooled, serious_pooled, funny_pooled, romantic_pooled, cynical_pooled, rhythmic_pooled, free_pooled, intense_pooled, relaxed_pooled, emotional_pooled, rational_pooled, profound_pooled, superficial_pooled, expressive_pooled, restrained_pooled, happy_pooled, sad_pooled
-    # generate_and_save_embeddings()
+    #generate_and_save_embeddings()
+
     if not globals().get('formal_pooled'):
         formal_pooled = torch.load('data/formal_pooled.pt')
     if not globals().get('informal_pooled'):
@@ -219,6 +221,22 @@ def compare(poem):
     profound_score = cosine_similarity([embedded_poem], [profound_pooled])[0][0]
     expressive_score = cosine_similarity([embedded_poem], [expressive_pooled])[0][0]
     happy_score = cosine_similarity([embedded_poem], [happy_pooled])[0][0]
+    
+     # Convert scores to NumPy arrays to ensure compatibility with Anvil
+    formal_score = np.array(formal_score)
+    traditional_score = np.array(traditional_score)
+    serious_score = np.array(serious_score)
+    romantic_score = np.array(romantic_score)
+    rhythmic_score = np.array(rhythmic_score)
+    intense_score = np.array(intense_score)
+    emotional_score = np.array(emotional_score)
+    profound_score = np.array(profound_score)
+    expressive_score = np.array(expressive_score)
+    happy_score = np.array(happy_score)
+    
+    return formal_score, traditional_score, serious_score, romantic_score, rhythmic_score, intense_score, emotional_score, profound_score, expressive_score, happy_score
+    
+    
     return formal_score, traditional_score, serious_score, romantic_score, rhythmic_score, intense_score, emotional_score, profound_score, expressive_score, happy_score
 
 def main():
